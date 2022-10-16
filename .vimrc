@@ -244,3 +244,5 @@ vnoremap <Leader>k :m'<-2<cr>`>my`<mzgv`yo`z
 
 
 inoremap jk <esc>
+
+cmap w!! w !sudo tee > /dev/null %
